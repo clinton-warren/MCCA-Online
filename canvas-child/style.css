@@ -1,0 +1,126 @@
+/*
+Theme Name: Canvas Child Non-Responsive
+Description: Child theme for the canvas theme 
+Author: TechCareLLC
+Template: canvas
+*/
+
+@import url("../canvas/style.css");
+
+#logo {padding-left: 5px; }
+
+/* styles the top menu */
+#menu-top-menu {float:right; }
+#menu-top-menu li {float:left;padding-left: 15px;}
+
+/* this will make the page go full width */
+.col-full, #wrapper {max-width: 100% !important; padding-bottom: 0px; }
+#header {max-width: 980px !important;}
+#main-nav { left: 50%; margin-left: -490px; max-width: 980px; }
+#content {max-width: 980px !important;}
+#copyright {width: 490px; left: 50%; margin-left: -490px; max-width: 490px !important; position: relative; }
+#credit {width: 490px; right: 50%; margin-right: -490px; max-width: 490px !important; position: relative; }
+
+
+.nav-toggle{display:none;}
+#header{margin:0 auto;}
+#content{margin-left:auto; margin-right:auto;}
+#header .nav-toggle{display:none !important;}
+#top select{display:none !important;}
+#top #top-nav { display:none; !important}
+
+/* moves social media icons over to right */
+#socialmedia-icons {
+position:absolute;
+top:25px;
+right:1px;
+width:40px;
+}
+
+/* moves slider up flush with main navigation */
+#navigation {
+margin-bottom:0px;
+}
+
+
+#loopedSlider { margin: 0 auto 0; }
+
+/* NO NEXT/PREV BUTTONS */
+.icon:before, .icon:after { display: none; }
+
+/* Moves content down on interior pages below nav bar */
+#content {padding: 20px 0 40px; }
+
+/* Moves content up on HOME page below slider  */
+.page-id-4 #content {padding: 0px 0 40px; }
+
+/* FOR THUMBNAILS IN SRP WIDGET/SHORTCODE */
+img.srp-widget-thmb {
+height:50px !important;
+width:50px !important;
+}
+
+.srp-thumbnail-box {
+height:50px !important;
+width: 50px !important;
+}
+
+.srp-widget-title h4 {color: #ffffff; line-height: 1em; }
+
+/* SRP WIDGET TITLE */
+div.srp-widget-container h3.widget-title {
+  font-size:20px;
+}
+
+a.srp-widget-title-link { font-size: 14px; line-height: 1em; color: #eaeaea; }
+
+.business h3 {
+   margin-top:0px; }
+
+
+/* TO REMOVE BG ON PNG FILES */
+.entry img, img.thumbnail {
+    background: none;
+}
+
+/* TO CHANGE LINK COLOR IN BODY TEXT */
+.entry a:link, .entry a:visited { color: #aecf43; font-weight: bold; }
+
+/*  BACKGROUND ON WIDGETS */
+.widget ul { background-image: url('http://www.mccaonline.com/wp-content/uploads/linen.png'); padding-left: 15px; text-indent: -8px;  }
+
+/* WIDGET TITLES */
+.widget h3 {   
+    paddding-bottom: 0px;
+    background-image:  url('http://www.mccaonline.com/wp-content/uploads/headingwidgetbg.jpg');
+    background-repeat: repeat-x;
+    height: 30px;
+    text-align: center;
+    margin-bottom: 5px !important;
+    color: #ffffff !important;
+}
+
+/* So that the tabs and toggles open up all the way */
+.shortcode-toggle {
+overflow: hidden;
+}
+
+.shortcode-tabs .tab  {
+overflow: hidden;
+}
+
+/* Border for H3 Headlines */
+h3 { border-bottom: 1px solid #eaeaea; }
+
+#menu-item-595 a:hover {
+background-color:white !important;
+}
+
+
+
+
+
+/*  FOOTER  */
+#footer { background: url('http://www.mccaonline.com/wp-content/uploads/clouds-bar.jpg');  background-position:bottom; background-repeat:repeat-x; height: 64px;}
+
+#copyright a:link, #copyright a:visited {font-size:14px; color:#ffffff; font-family: Rosario;padding-right:10px; line-height: 1.5em;}
